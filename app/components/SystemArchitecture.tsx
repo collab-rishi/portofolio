@@ -13,7 +13,7 @@ export default function SystemArchitecture() {
 				<div className="grid grid-cols-1 gap-8">
 					{[
 						{
-							title: 'Pic Curator (Github link)',
+							title: 'Pic Curator | Github',
 							description: 'Developed a photo curation backend using Node.js and PostgreSQL with advanced search, tag filtering, and Unsplash API integration for seamless image discovery.',
 							details: [
 								'Designed a Robust Data Model: Structured Sequelize schemas for four core entities—user, photo, tag, and search history—optimizing database efficiency.',
@@ -24,7 +24,7 @@ export default function SystemArchitecture() {
 							tech: ['NodeJS',' JavaScript', ' Express.js','PostgreSQL','Sequelize'],
 						},
 						{
-							title: 'Movie Finder (Github link)',
+							title: 'Movie Finder | Github',
 							description: 'Built a scalable movie search and list management API powered by TMDB, featuring user authentication, advanced filtering, and 90%+ test coverage with Jest.',
 							details: [
 								' Built a Scalable Movie Curation Backend: Designed and implemented 10+ RESTful APIs using for user authentication, movie management, and list creation',
