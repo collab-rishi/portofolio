@@ -28,12 +28,13 @@ export default function HeroSection() {
 						<p className="text-gray-400 mb-2">Backend Developer</p>
 						<p className="text-green-500">$ skills</p>
 						<div className="flex flex-wrap gap-2 mt-2">
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Node.js</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">JavaScript</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">REST APIs</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Sequelize</span>
-							<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">PostgreSQL</span>
-							{/* <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kubernetes</span> */}
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Node.js</span>
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Express.js</span>
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">MySQL</span>
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">RESTful APIs</span>
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Microservices</span>
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">AWS</span>
+						<span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Devops</span>
 						</div>
 					</div>
 				</motion.div>

@@ -12,6 +12,18 @@ export default function SystemArchitecture() {
 
 				<div className="grid grid-cols-1 gap-8">
 					{[
+					   {
+						title: 'Flyora | Github',
+						description: 'Architected a scalable microservices backend for a flight booking system with secure authentication, transactional booking, and asynchronous notifications.',
+						details: [
+							'Designed and implemented microservices (Flights, Bookings, Reminders, API Gateway) handling 50+ concurrent requests with high scalability.',
+							'Enabled JWT authentication and role-based access control (RBAC) through API Gateway, including reverse proxy and rate limiting for 20+ endpoints.',
+							'Implemented transactional and idempotent booking workflows using Sequelize and MySQL to prevent duplicate bookings.',
+							'Set up asynchronous email reminders with RabbitMQ, achieving a 99.9% success rate delivering 20+ daily notifications.'
+						],
+						tech: ['Node.js', 'Express.js', 'MySQL', 'Sequelize', 'JWT', 'RabbitMQ']
+						},
+
 						{
 							title: 'Image Curator | Github',
 							description: 'Developed a photo curation backend using Node.js and PostgreSQL with advanced search, tag filtering, and Unsplash API integration for seamless image discovery.',
